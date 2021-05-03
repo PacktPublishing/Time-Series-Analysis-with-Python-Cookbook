@@ -1,0 +1,45 @@
+credit,Date=0        2017-01-01
+1        2017-01-01
+2        2017-01-01
+3        2017-01-01
+4        2017-01-01
+            ...    
+74119    2018-12-31
+74120    2018-12-31
+74121    2018-12-31
+74122    2018-12-31
+74123    2018-12-31
+Name: Date, Length: 74124, dtype: object,cc=0        7.440000e+15
+1        7.440000e+15
+2        8.420000e+15
+3        8.420000e+15
+4        4.790000e+15
+             ...     
+74119    1.700000e+15
+74120    6.800000e+15
+74121    6.800000e+15
+74122    5.980000e+15
+74123    5.980000e+15
+Name: Credit_Card_Number, Length: 74124, dtype: float64,qty=0        1
+1        1
+2        3
+3        3
+4        1
+        ..
+74119    4
+74120    1
+74121    1
+74122    2
+74123    2
+Name: Quantity, Length: 74124, dtype: int64,item=0             spicy miso ramen
+1             spicy miso ramen
+2            tori paitan ramen
+3            tori paitan ramen
+4         truffle butter ramen
+                 ...          
+74119           tonkotsu ramen
+74120    vegetarian spicy miso
+74121    vegetarian spicy miso
+74122         spicy miso ramen
+74123         spicy miso ramen
+Name: Menu_Item, Length: 74124, dtype: object
