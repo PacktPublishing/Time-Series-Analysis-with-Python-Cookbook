@@ -1,0 +1,39 @@
+name: tscookbook
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - pip
+  # Data Analysis
+  - statsmodels
+  - scipy
+  - pandas
+  - numpy
+  - pyqt
+  - tqdm
+
+  
+  # Plotting
+  - matplotlib
+  - plotly
+  - seaborn
+  - pandas
+  - numpy
+
+  # Machine learning
+  - scikit-learn
+
+  # Jupyter Environment
+  - jupyter
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - jupyterlab
+  - notebook
+  - ipython
+  - jupyter_contrib_nbextensions
+  
+  
