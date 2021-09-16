@@ -1,0 +1,25 @@
+name: timeseries
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - jupyter
+  - numpy
+  - seaborn
+  - statsmodels
+  - python=3.8
+  - scipy
+  - ipython
+  - pandas
+  - scikit-learn
+  - pmdarima
+  - jupyterlab
+  - openpyxl
+  - lxml
+  - beautifulsoup4
+  - html5lib
+  - alpha_vantage
+  - pandas-datareader
+  - psycopg2
+  - sqlalchemy
+
