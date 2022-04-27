@@ -1907,3 +1907,1223 @@ TypeError: n_neighbors should be int. Got <class 'NoneType'>
                 ('dfs', 'passthrough'), ('pca', 'passthrough')],
          verbose=False)
 2022-03-18 01:41:28,107:INFO:setup() succesfully completed......................................
+2022-04-27 03:28:00,895:INFO:PyCaret Supervised Module
+2022-04-27 03:28:00,895:INFO:ML Usecase: anomaly
+2022-04-27 03:28:00,895:INFO:version 2.3.9
+2022-04-27 03:28:00,896:INFO:Initializing setup()
+2022-04-27 03:28:00,896:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=1, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-04-27 03:28:00,896:INFO:Checking environment
+2022-04-27 03:28:00,896:INFO:python_version: 3.8.12
+2022-04-27 03:28:00,896:INFO:python_build: ('default', 'Oct 12 2021 06:23:56')
+2022-04-27 03:28:00,896:INFO:machine: x86_64
+2022-04-27 03:28:00,896:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-04-27 03:28:00,897:INFO:Memory: svmem(total=17179869184, available=5474467840, percent=68.1, used=8889319424, free=16236544, active=5462077440, inactive=5416423424, wired=3427241984)
+2022-04-27 03:28:00,897:INFO:Physical Core: 4
+2022-04-27 03:28:00,897:INFO:Logical Core: 8
+2022-04-27 03:28:00,897:INFO:Checking libraries
+2022-04-27 03:28:00,897:INFO:pd==1.4.1
+2022-04-27 03:28:00,897:INFO:numpy==1.20.3
+2022-04-27 03:28:00,897:INFO:sklearn==0.23.2
+2022-04-27 03:28:00,897:INFO:lightgbm==3.3.2
+2022-04-27 03:28:00,974:INFO:catboost==1.0.4
+2022-04-27 03:28:01,105:INFO:xgboost==1.5.2
+2022-04-27 03:28:01,106:INFO:mlflow==1.24.0
+2022-04-27 03:28:01,106:INFO:Checking Exceptions
+2022-04-27 03:28:01,106:INFO:Declaring global variables
+2022-04-27 03:28:01,106:INFO:USI: 7109
+2022-04-27 03:28:01,106:INFO:pycaret_globals: {'fold_groups_param_full', 'iterative_imputation_iters_param', 'prep_pipe', 'seed', 'gpu_param', 'pycaret_globals', 'data_before_preprocess', '_all_metrics', 'imputation_classifier', 'create_model_container', 'stratify_param', 'fold_generator', '_available_plots', 'transform_target_method_param', 'fix_imbalance_method_param', 'imputation_regressor', 'fold_groups_param', 'logging_param', 'USI', 'dashboard_logger', 'X', 'display_container', '_all_models_internal', 'fold_shuffle_param', 'log_plots_param', '_gpu_n_jobs_param', 'transform_target_param', 'fold_param', 'master_model_container', 'target_param', 'n_jobs_param', 'html_param', '_ml_usecase', '_all_models', '_internal_pipeline', 'exp_name_log', 'fix_imbalance_param', 'experiment__'}
+2022-04-27 03:28:01,106:INFO:Preparing display monitor
+2022-04-27 03:28:01,106:INFO:Preparing display monitor
+2022-04-27 03:28:01,122:INFO:Importing libraries
+2022-04-27 03:28:01,122:INFO:Copying data for preprocessing
+2022-04-27 03:28:01,133:INFO:Declaring preprocessing parameters
+2022-04-27 03:28:01,441:INFO:Creating preprocessing pipeline
+2022-04-27 03:28:01,444:INFO:Preprocessing pipeline created successfully
+2022-04-27 03:28:01,444:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-04-27 03:28:01,444:INFO:Creating global containers
+2022-04-27 03:28:01,445:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-04-27 03:28:02,463:INFO:Creating grid variables
+2022-04-27 03:28:02,476:INFO:create_model_container: 0
+2022-04-27 03:28:02,476:INFO:master_model_container: 0
+2022-04-27 03:28:02,476:INFO:display_container: 1
+2022-04-27 03:28:02,482:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-04-27 03:28:02,482:INFO:setup() succesfully completed......................................
+2022-04-27 03:28:03,308:INFO:PyCaret Supervised Module
+2022-04-27 03:28:03,309:INFO:ML Usecase: anomaly
+2022-04-27 03:28:03,309:INFO:version 2.3.9
+2022-04-27 03:28:03,309:INFO:Initializing setup()
+2022-04-27 03:28:03,309:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=1, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-04-27 03:28:03,309:INFO:Checking environment
+2022-04-27 03:28:03,309:INFO:python_version: 3.8.12
+2022-04-27 03:28:03,310:INFO:python_build: ('default', 'Oct 12 2021 06:23:56')
+2022-04-27 03:28:03,310:INFO:machine: x86_64
+2022-04-27 03:28:03,310:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-04-27 03:28:03,310:INFO:Memory: svmem(total=17179869184, available=5451886592, percent=68.3, used=8891129856, free=16478208, active=5438451712, inactive=5384544256, wired=3452678144)
+2022-04-27 03:28:03,310:INFO:Physical Core: 4
+2022-04-27 03:28:03,310:INFO:Logical Core: 8
+2022-04-27 03:28:03,310:INFO:Checking libraries
+2022-04-27 03:28:03,310:INFO:pd==1.4.1
+2022-04-27 03:28:03,310:INFO:numpy==1.20.3
+2022-04-27 03:28:03,310:INFO:sklearn==0.23.2
+2022-04-27 03:28:03,310:INFO:lightgbm==3.3.2
+2022-04-27 03:28:03,310:INFO:catboost==1.0.4
+2022-04-27 03:28:03,310:INFO:xgboost==1.5.2
+2022-04-27 03:28:03,310:INFO:mlflow==1.24.0
+2022-04-27 03:28:03,310:INFO:Checking Exceptions
+2022-04-27 03:28:03,310:INFO:Declaring global variables
+2022-04-27 03:28:03,311:INFO:USI: a459
+2022-04-27 03:28:03,311:INFO:pycaret_globals: {'fold_groups_param_full', 'iterative_imputation_iters_param', 'prep_pipe', 'seed', 'gpu_param', 'pycaret_globals', 'data_before_preprocess', '_all_metrics', 'imputation_classifier', 'create_model_container', 'stratify_param', 'fold_generator', '_available_plots', 'transform_target_method_param', 'fix_imbalance_method_param', 'imputation_regressor', 'fold_groups_param', 'logging_param', 'USI', 'dashboard_logger', 'X', 'display_container', '_all_models_internal', 'fold_shuffle_param', 'log_plots_param', '_gpu_n_jobs_param', 'transform_target_param', 'fold_param', 'master_model_container', 'target_param', 'n_jobs_param', 'html_param', '_ml_usecase', '_all_models', '_internal_pipeline', 'exp_name_log', 'fix_imbalance_param', 'experiment__'}
+2022-04-27 03:28:03,311:INFO:Preparing display monitor
+2022-04-27 03:28:03,311:INFO:Preparing display monitor
+2022-04-27 03:28:03,324:INFO:Importing libraries
+2022-04-27 03:28:03,324:INFO:Copying data for preprocessing
+2022-04-27 03:28:03,333:INFO:Declaring preprocessing parameters
+2022-04-27 03:28:03,361:INFO:Creating preprocessing pipeline
+2022-04-27 03:28:03,363:INFO:Preprocessing pipeline created successfully
+2022-04-27 03:28:03,363:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-04-27 03:28:03,363:INFO:Creating global containers
+2022-04-27 03:28:03,364:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-04-27 03:28:05,350:INFO:Creating grid variables
+2022-04-27 03:28:05,364:INFO:create_model_container: 0
+2022-04-27 03:28:05,365:INFO:master_model_container: 0
+2022-04-27 03:28:05,365:INFO:display_container: 1
+2022-04-27 03:28:05,372:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-04-27 03:28:05,372:INFO:setup() succesfully completed......................................
+2022-04-27 03:28:07,893:INFO:gpu_param set to False
+2022-04-27 03:28:09,783:INFO:gpu_param set to False
+2022-04-27 03:28:10,621:INFO:Initializing create_model()
+2022-04-27 03:28:10,621:INFO:create_model(estimator=abod, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:28:10,621:INFO:Checking exceptions
+2022-04-27 03:28:10,622:INFO:Preparing display monitor
+2022-04-27 03:28:10,637:INFO:Importing libraries
+2022-04-27 03:28:10,647:INFO:Importing untrained model
+2022-04-27 03:28:10,656:INFO:Angle-base Outlier Detection Imported succesfully
+2022-04-27 03:28:10,668:INFO:Fitting Model
+2022-04-27 03:28:12,346:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:28:12,346:INFO:create_models() succesfully completed......................................
+2022-04-27 03:28:12,347:INFO:Uploading results into container
+2022-04-27 03:28:12,347:INFO:Uploading model into container now
+2022-04-27 03:28:12,348:INFO:create_model_container: 1
+2022-04-27 03:28:12,348:INFO:master_model_container: 1
+2022-04-27 03:28:12,348:INFO:display_container: 2
+2022-04-27 03:28:12,349:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:28:12,349:INFO:create_model() succesfully completed......................................
+2022-04-27 03:28:12,476:INFO:Initializing predict_model()
+2022-04-27 03:28:12,477:INFO:predict_model(estimator=ABOD(contamination=0.03, method='fast', n_neighbors=5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:28:12,599:INFO:Initializing create_model()
+2022-04-27 03:28:12,600:INFO:create_model(estimator=cluster, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:28:12,600:INFO:Checking exceptions
+2022-04-27 03:28:12,600:INFO:Preparing display monitor
+2022-04-27 03:28:12,611:INFO:Importing libraries
+2022-04-27 03:28:12,619:INFO:Importing untrained model
+2022-04-27 03:28:12,629:INFO:Clustering-Based Local Outlier Imported succesfully
+2022-04-27 03:28:12,639:INFO:Fitting Model
+2022-04-27 03:28:13,971:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:28:13,972:INFO:create_models() succesfully completed......................................
+2022-04-27 03:28:13,973:INFO:Uploading results into container
+2022-04-27 03:28:13,973:INFO:Uploading model into container now
+2022-04-27 03:28:13,975:INFO:create_model_container: 2
+2022-04-27 03:28:13,975:INFO:master_model_container: 2
+2022-04-27 03:28:13,975:INFO:display_container: 3
+2022-04-27 03:28:13,975:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:28:13,976:INFO:create_model() succesfully completed......................................
+2022-04-27 03:28:14,121:INFO:Initializing predict_model()
+2022-04-27 03:28:14,121:INFO:predict_model(estimator=CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:28:14,197:INFO:Initializing create_model()
+2022-04-27 03:28:14,197:INFO:create_model(estimator=cof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:28:14,197:INFO:Checking exceptions
+2022-04-27 03:28:14,197:INFO:Preparing display monitor
+2022-04-27 03:28:14,218:INFO:Importing libraries
+2022-04-27 03:28:14,229:INFO:Importing untrained model
+2022-04-27 03:28:14,241:WARNING:create_model_unsupervised() for COF(contamination=0.03, method='fast', n_neighbors=None) raised an exception when cloning:
+2022-04-27 03:28:14,248:WARNING:Traceback (most recent call last):
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 2654, in create_model_unsupervised
+    model = clone(model)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/utils/validation.py", line 72, in inner_f
+    return f(**kwargs)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/base.py", line 88, in clone
+    new_object = klass(**new_object_params)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pyod/models/cof.py", line 87, in __init__
+    raise TypeError(
+TypeError: n_neighbors should be int. Got <class 'NoneType'>
+
+2022-04-27 03:28:14,248:INFO:Connectivity-Based Local Outlier Imported succesfully
+2022-04-27 03:28:14,258:INFO:Fitting Model
+2022-04-27 03:28:14,318:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:28:14,318:INFO:create_models() succesfully completed......................................
+2022-04-27 03:28:14,318:INFO:Uploading results into container
+2022-04-27 03:28:14,319:INFO:Uploading model into container now
+2022-04-27 03:28:14,320:INFO:create_model_container: 3
+2022-04-27 03:28:14,320:INFO:master_model_container: 3
+2022-04-27 03:28:14,320:INFO:display_container: 4
+2022-04-27 03:28:14,320:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:28:14,320:INFO:create_model() succesfully completed......................................
+2022-04-27 03:28:14,441:INFO:Initializing predict_model()
+2022-04-27 03:28:14,441:INFO:predict_model(estimator=COF(contamination=0.03, method='fast', n_neighbors=None), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:28:14,564:INFO:Initializing create_model()
+2022-04-27 03:28:14,564:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:28:14,564:INFO:Checking exceptions
+2022-04-27 03:28:14,565:INFO:Preparing display monitor
+2022-04-27 03:28:14,575:INFO:Importing libraries
+2022-04-27 03:28:14,584:INFO:Importing untrained model
+2022-04-27 03:28:14,595:INFO:Isolation Forest Imported succesfully
+2022-04-27 03:28:14,608:INFO:Fitting Model
+2022-04-27 03:28:15,202:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:28:15,202:INFO:create_models() succesfully completed......................................
+2022-04-27 03:28:15,203:INFO:Uploading results into container
+2022-04-27 03:28:15,204:INFO:Uploading model into container now
+2022-04-27 03:28:15,205:INFO:create_model_container: 4
+2022-04-27 03:28:15,205:INFO:master_model_container: 4
+2022-04-27 03:28:15,205:INFO:display_container: 5
+2022-04-27 03:28:15,206:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:28:15,206:INFO:create_model() succesfully completed......................................
+2022-04-27 03:28:15,338:INFO:Initializing predict_model()
+2022-04-27 03:28:15,338:INFO:predict_model(estimator=IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:28:15,526:INFO:Initializing create_model()
+2022-04-27 03:28:15,526:INFO:create_model(estimator=histogram, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:28:15,526:INFO:Checking exceptions
+2022-04-27 03:28:15,527:INFO:Preparing display monitor
+2022-04-27 03:28:15,544:INFO:Importing libraries
+2022-04-27 03:28:15,558:INFO:Importing untrained model
+2022-04-27 03:28:15,571:INFO:Histogram-based Outlier Detection Imported succesfully
+2022-04-27 03:28:15,583:INFO:Fitting Model
+2022-04-27 03:28:17,068:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:28:17,068:INFO:create_models() succesfully completed......................................
+2022-04-27 03:28:17,069:INFO:Uploading results into container
+2022-04-27 03:28:17,070:INFO:Uploading model into container now
+2022-04-27 03:28:17,071:INFO:create_model_container: 5
+2022-04-27 03:28:17,071:INFO:master_model_container: 5
+2022-04-27 03:28:17,071:INFO:display_container: 6
+2022-04-27 03:28:17,071:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:28:17,071:INFO:create_model() succesfully completed......................................
+2022-04-27 03:28:17,216:INFO:Initializing predict_model()
+2022-04-27 03:28:17,217:INFO:predict_model(estimator=HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:28:17,283:INFO:Initializing create_model()
+2022-04-27 03:28:17,283:INFO:create_model(estimator=knn, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:28:17,283:INFO:Checking exceptions
+2022-04-27 03:28:17,283:INFO:Preparing display monitor
+2022-04-27 03:28:17,297:INFO:Importing libraries
+2022-04-27 03:28:17,309:INFO:Importing untrained model
+2022-04-27 03:28:17,324:INFO:K-Nearest Neighbors Detector Imported succesfully
+2022-04-27 03:28:17,339:INFO:Fitting Model
+2022-04-27 03:28:17,355:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:28:17,355:INFO:create_models() succesfully completed......................................
+2022-04-27 03:28:17,357:INFO:Uploading results into container
+2022-04-27 03:28:17,358:INFO:Uploading model into container now
+2022-04-27 03:28:17,361:INFO:create_model_container: 6
+2022-04-27 03:28:17,361:INFO:master_model_container: 6
+2022-04-27 03:28:17,361:INFO:display_container: 7
+2022-04-27 03:28:17,362:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:28:17,362:INFO:create_model() succesfully completed......................................
+2022-04-27 03:28:17,484:INFO:Initializing predict_model()
+2022-04-27 03:28:17,485:INFO:predict_model(estimator=KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:28:17,584:INFO:Initializing create_model()
+2022-04-27 03:28:17,584:INFO:create_model(estimator=lof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:28:17,584:INFO:Checking exceptions
+2022-04-27 03:28:17,584:INFO:Preparing display monitor
+2022-04-27 03:28:17,597:INFO:Importing libraries
+2022-04-27 03:28:17,606:INFO:Importing untrained model
+2022-04-27 03:28:17,617:INFO:Local Outlier Factor Imported succesfully
+2022-04-27 03:28:17,629:INFO:Fitting Model
+2022-04-27 03:28:17,645:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:28:17,645:INFO:create_models() succesfully completed......................................
+2022-04-27 03:28:17,646:INFO:Uploading results into container
+2022-04-27 03:28:17,647:INFO:Uploading model into container now
+2022-04-27 03:28:17,648:INFO:create_model_container: 7
+2022-04-27 03:28:17,648:INFO:master_model_container: 7
+2022-04-27 03:28:17,648:INFO:display_container: 8
+2022-04-27 03:28:17,649:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:28:17,649:INFO:create_model() succesfully completed......................................
+2022-04-27 03:28:17,775:INFO:Initializing predict_model()
+2022-04-27 03:28:17,775:INFO:predict_model(estimator=LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:28:17,850:INFO:Initializing create_model()
+2022-04-27 03:28:17,850:INFO:create_model(estimator=svm, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:28:17,850:INFO:Checking exceptions
+2022-04-27 03:28:17,850:INFO:Preparing display monitor
+2022-04-27 03:28:17,866:INFO:Importing libraries
+2022-04-27 03:28:17,876:INFO:Importing untrained model
+2022-04-27 03:28:17,887:INFO:One-class SVM detector Imported succesfully
+2022-04-27 03:28:17,899:INFO:Fitting Model
+2022-04-27 03:28:17,917:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:28:17,917:INFO:create_models() succesfully completed......................................
+2022-04-27 03:28:17,917:INFO:Uploading results into container
+2022-04-27 03:28:17,918:INFO:Uploading model into container now
+2022-04-27 03:28:17,919:INFO:create_model_container: 8
+2022-04-27 03:28:17,919:INFO:master_model_container: 8
+2022-04-27 03:28:17,919:INFO:display_container: 9
+2022-04-27 03:28:17,919:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:28:17,919:INFO:create_model() succesfully completed......................................
+2022-04-27 03:28:18,044:INFO:Initializing predict_model()
+2022-04-27 03:28:18,044:INFO:predict_model(estimator=OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:31:32,586:INFO:PyCaret Supervised Module
+2022-04-27 03:31:32,587:INFO:ML Usecase: anomaly
+2022-04-27 03:31:32,587:INFO:version 2.3.10
+2022-04-27 03:31:32,587:INFO:Initializing setup()
+2022-04-27 03:31:32,587:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=1, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-04-27 03:31:32,587:INFO:Checking environment
+2022-04-27 03:31:32,587:INFO:python_version: 3.8.12
+2022-04-27 03:31:32,587:INFO:python_build: ('default', 'Oct 12 2021 06:23:56')
+2022-04-27 03:31:32,587:INFO:machine: x86_64
+2022-04-27 03:31:32,587:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-04-27 03:31:32,587:INFO:Memory: svmem(total=17179869184, available=5485514752, percent=68.1, used=8622862336, free=393199616, active=5096263680, inactive=5021650944, wired=3526598656)
+2022-04-27 03:31:32,587:INFO:Physical Core: 4
+2022-04-27 03:31:32,588:INFO:Logical Core: 8
+2022-04-27 03:31:32,588:INFO:Checking libraries
+2022-04-27 03:31:32,588:INFO:pd==1.4.1
+2022-04-27 03:31:32,588:INFO:numpy==1.20.3
+2022-04-27 03:31:32,588:INFO:sklearn==0.23.2
+2022-04-27 03:31:32,588:INFO:lightgbm==3.3.2
+2022-04-27 03:31:32,609:INFO:catboost==1.0.4
+2022-04-27 03:31:32,833:INFO:xgboost==1.5.2
+2022-04-27 03:31:32,833:INFO:mlflow==1.24.0
+2022-04-27 03:31:32,833:INFO:Checking Exceptions
+2022-04-27 03:31:32,833:INFO:Declaring global variables
+2022-04-27 03:31:32,833:INFO:USI: bbc4
+2022-04-27 03:31:32,833:INFO:pycaret_globals: {'gpu_param', 'fold_groups_param_full', 'seed', 'experiment__', 'X', 'iterative_imputation_iters_param', 'target_param', 'stratify_param', 'prep_pipe', '_all_models_internal', 'display_container', 'logging_param', '_internal_pipeline', 'fold_generator', 'fold_param', 'imputation_regressor', 'fix_imbalance_param', '_gpu_n_jobs_param', '_all_metrics', '_all_models', 'dashboard_logger', 'exp_name_log', 'log_plots_param', '_available_plots', 'fold_shuffle_param', 'fold_groups_param', 'pycaret_globals', 'create_model_container', 'transform_target_method_param', 'imputation_classifier', 'fix_imbalance_method_param', '_ml_usecase', 'data_before_preprocess', 'USI', 'html_param', 'n_jobs_param', 'transform_target_param', 'master_model_container'}
+2022-04-27 03:31:32,834:INFO:Preparing display monitor
+2022-04-27 03:31:32,834:INFO:Preparing display monitor
+2022-04-27 03:31:32,846:INFO:Importing libraries
+2022-04-27 03:31:32,847:INFO:Copying data for preprocessing
+2022-04-27 03:31:32,854:INFO:Declaring preprocessing parameters
+2022-04-27 03:31:33,162:INFO:Creating preprocessing pipeline
+2022-04-27 03:31:33,164:INFO:Preprocessing pipeline created successfully
+2022-04-27 03:31:33,164:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-04-27 03:31:33,165:INFO:Creating global containers
+2022-04-27 03:31:33,166:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-04-27 03:31:34,487:INFO:Creating grid variables
+2022-04-27 03:31:34,576:INFO:create_model_container: 0
+2022-04-27 03:31:34,577:INFO:master_model_container: 0
+2022-04-27 03:31:34,577:INFO:display_container: 1
+2022-04-27 03:31:34,582:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-04-27 03:31:34,582:INFO:setup() succesfully completed......................................
+2022-04-27 03:31:38,125:INFO:gpu_param set to False
+2022-04-27 03:31:40,919:INFO:gpu_param set to False
+2022-04-27 03:50:26,888:INFO:PyCaret Supervised Module
+2022-04-27 03:50:26,888:INFO:ML Usecase: anomaly
+2022-04-27 03:50:26,888:INFO:version 2.3.10
+2022-04-27 03:50:26,888:INFO:Initializing setup()
+2022-04-27 03:50:26,888:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=1, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-04-27 03:50:26,888:INFO:Checking environment
+2022-04-27 03:50:26,888:INFO:python_version: 3.8.13
+2022-04-27 03:50:26,888:INFO:python_build: ('default', 'Mar 28 2022 06:16:26')
+2022-04-27 03:50:26,888:INFO:machine: x86_64
+2022-04-27 03:50:26,888:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-04-27 03:50:26,889:INFO:Memory: svmem(total=17179869184, available=5264719872, percent=69.4, used=8713302016, free=43016192, active=5165371392, inactive=5148545024, wired=3547930624)
+2022-04-27 03:50:26,889:INFO:Physical Core: 4
+2022-04-27 03:50:26,889:INFO:Logical Core: 8
+2022-04-27 03:50:26,889:INFO:Checking libraries
+2022-04-27 03:50:26,889:INFO:pd==1.4.2
+2022-04-27 03:50:26,889:INFO:numpy==1.19.5
+2022-04-27 03:50:26,889:INFO:sklearn==0.23.2
+2022-04-27 03:50:26,889:INFO:lightgbm==3.3.2
+2022-04-27 03:50:27,971:INFO:catboost==1.0.5
+2022-04-27 03:50:27,971:INFO:xgboost==1.6.0
+2022-04-27 03:50:27,972:INFO:mlflow==1.25.1
+2022-04-27 03:50:27,972:INFO:Checking Exceptions
+2022-04-27 03:50:27,972:INFO:Declaring global variables
+2022-04-27 03:50:27,972:INFO:USI: 0b6e
+2022-04-27 03:50:27,972:INFO:pycaret_globals: {'_all_models_internal', '_all_models', 'n_jobs_param', 'X', 'target_param', 'USI', 'prep_pipe', 'master_model_container', 'fix_imbalance_param', 'gpu_param', 'fold_generator', 'stratify_param', '_internal_pipeline', '_gpu_n_jobs_param', 'create_model_container', '_available_plots', '_ml_usecase', 'display_container', 'dashboard_logger', 'fix_imbalance_method_param', 'imputation_regressor', 'transform_target_param', 'exp_name_log', 'fold_param', 'log_plots_param', 'pycaret_globals', 'logging_param', 'transform_target_method_param', 'data_before_preprocess', 'imputation_classifier', 'seed', '_all_metrics', 'fold_shuffle_param', 'html_param', 'fold_groups_param_full', 'iterative_imputation_iters_param', 'fold_groups_param', 'experiment__'}
+2022-04-27 03:50:27,972:INFO:Preparing display monitor
+2022-04-27 03:50:27,972:INFO:Preparing display monitor
+2022-04-27 03:50:27,992:INFO:Importing libraries
+2022-04-27 03:50:27,993:INFO:Copying data for preprocessing
+2022-04-27 03:50:28,004:INFO:Declaring preprocessing parameters
+2022-04-27 03:50:28,388:INFO:Creating preprocessing pipeline
+2022-04-27 03:50:28,391:INFO:Preprocessing pipeline created successfully
+2022-04-27 03:50:28,391:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-04-27 03:50:28,391:INFO:Creating global containers
+2022-04-27 03:50:28,392:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-04-27 03:50:35,312:INFO:Creating grid variables
+2022-04-27 03:50:35,323:INFO:create_model_container: 0
+2022-04-27 03:50:35,324:INFO:master_model_container: 0
+2022-04-27 03:50:35,324:INFO:display_container: 1
+2022-04-27 03:50:35,332:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-04-27 03:50:35,332:INFO:setup() succesfully completed......................................
+2022-04-27 03:50:38,207:INFO:gpu_param set to False
+2022-04-27 03:50:40,791:INFO:gpu_param set to False
+2022-04-27 03:51:35,089:INFO:Initializing create_model()
+2022-04-27 03:51:35,090:INFO:create_model(estimator=abod, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:51:35,090:INFO:Checking exceptions
+2022-04-27 03:51:35,090:INFO:Preparing display monitor
+2022-04-27 03:51:35,115:INFO:Importing libraries
+2022-04-27 03:51:35,130:INFO:Importing untrained model
+2022-04-27 03:51:35,150:INFO:Angle-base Outlier Detection Imported succesfully
+2022-04-27 03:51:35,177:INFO:Fitting Model
+2022-04-27 03:51:37,050:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:51:37,050:INFO:create_models() succesfully completed......................................
+2022-04-27 03:51:37,050:INFO:Uploading results into container
+2022-04-27 03:51:37,051:INFO:Uploading model into container now
+2022-04-27 03:51:37,052:INFO:create_model_container: 1
+2022-04-27 03:51:37,052:INFO:master_model_container: 1
+2022-04-27 03:51:37,052:INFO:display_container: 2
+2022-04-27 03:51:37,053:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:51:37,053:INFO:create_model() succesfully completed......................................
+2022-04-27 03:51:37,179:INFO:Initializing predict_model()
+2022-04-27 03:51:37,179:INFO:predict_model(estimator=ABOD(contamination=0.03, method='fast', n_neighbors=5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:51:37,295:INFO:Initializing create_model()
+2022-04-27 03:51:37,295:INFO:create_model(estimator=cluster, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:51:37,295:INFO:Checking exceptions
+2022-04-27 03:51:37,295:INFO:Preparing display monitor
+2022-04-27 03:51:37,307:INFO:Importing libraries
+2022-04-27 03:51:37,317:INFO:Importing untrained model
+2022-04-27 03:51:37,326:INFO:Clustering-Based Local Outlier Imported succesfully
+2022-04-27 03:51:37,340:INFO:Fitting Model
+2022-04-27 03:51:38,635:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:51:38,635:INFO:create_models() succesfully completed......................................
+2022-04-27 03:51:38,636:INFO:Uploading results into container
+2022-04-27 03:51:38,637:INFO:Uploading model into container now
+2022-04-27 03:51:38,638:INFO:create_model_container: 2
+2022-04-27 03:51:38,638:INFO:master_model_container: 2
+2022-04-27 03:51:38,638:INFO:display_container: 3
+2022-04-27 03:51:38,638:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:51:38,638:INFO:create_model() succesfully completed......................................
+2022-04-27 03:51:38,777:INFO:Initializing predict_model()
+2022-04-27 03:51:38,778:INFO:predict_model(estimator=CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:51:38,857:INFO:Initializing create_model()
+2022-04-27 03:51:38,857:INFO:create_model(estimator=cof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:51:38,857:INFO:Checking exceptions
+2022-04-27 03:51:38,858:INFO:Preparing display monitor
+2022-04-27 03:51:38,874:INFO:Importing libraries
+2022-04-27 03:51:38,884:INFO:Importing untrained model
+2022-04-27 03:51:38,894:WARNING:create_model_unsupervised() for COF(contamination=0.03, method='fast', n_neighbors=None) raised an exception when cloning:
+2022-04-27 03:51:38,898:WARNING:Traceback (most recent call last):
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 2654, in create_model_unsupervised
+    model = clone(model)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/utils/validation.py", line 72, in inner_f
+    return f(**kwargs)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/base.py", line 88, in clone
+    new_object = klass(**new_object_params)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pyod/models/cof.py", line 87, in __init__
+    raise TypeError(
+TypeError: n_neighbors should be int. Got <class 'NoneType'>
+
+2022-04-27 03:51:38,898:INFO:Connectivity-Based Local Outlier Imported succesfully
+2022-04-27 03:51:38,913:INFO:Fitting Model
+2022-04-27 03:51:38,969:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:51:38,969:INFO:create_models() succesfully completed......................................
+2022-04-27 03:51:38,970:INFO:Uploading results into container
+2022-04-27 03:51:38,970:INFO:Uploading model into container now
+2022-04-27 03:51:38,971:INFO:create_model_container: 3
+2022-04-27 03:51:38,972:INFO:master_model_container: 3
+2022-04-27 03:51:38,972:INFO:display_container: 4
+2022-04-27 03:51:38,972:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:51:38,973:INFO:create_model() succesfully completed......................................
+2022-04-27 03:51:39,089:INFO:Initializing predict_model()
+2022-04-27 03:51:39,090:INFO:predict_model(estimator=COF(contamination=0.03, method='fast', n_neighbors=None), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:51:39,241:INFO:Initializing create_model()
+2022-04-27 03:51:39,241:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:51:39,241:INFO:Checking exceptions
+2022-04-27 03:51:39,241:INFO:Preparing display monitor
+2022-04-27 03:51:39,252:INFO:Importing libraries
+2022-04-27 03:51:39,262:INFO:Importing untrained model
+2022-04-27 03:51:39,275:INFO:Isolation Forest Imported succesfully
+2022-04-27 03:51:39,288:INFO:Fitting Model
+2022-04-27 03:51:40,057:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:51:40,057:INFO:create_models() succesfully completed......................................
+2022-04-27 03:51:40,058:INFO:Uploading results into container
+2022-04-27 03:51:40,060:INFO:Uploading model into container now
+2022-04-27 03:51:40,061:INFO:create_model_container: 4
+2022-04-27 03:51:40,061:INFO:master_model_container: 4
+2022-04-27 03:51:40,061:INFO:display_container: 5
+2022-04-27 03:51:40,062:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:51:40,062:INFO:create_model() succesfully completed......................................
+2022-04-27 03:51:40,220:INFO:Initializing predict_model()
+2022-04-27 03:51:40,221:INFO:predict_model(estimator=IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:51:40,390:INFO:Initializing create_model()
+2022-04-27 03:51:40,391:INFO:create_model(estimator=histogram, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:51:40,391:INFO:Checking exceptions
+2022-04-27 03:51:40,391:INFO:Preparing display monitor
+2022-04-27 03:51:40,403:INFO:Importing libraries
+2022-04-27 03:51:40,415:INFO:Importing untrained model
+2022-04-27 03:51:40,426:INFO:Histogram-based Outlier Detection Imported succesfully
+2022-04-27 03:51:40,440:INFO:Fitting Model
+2022-04-27 03:51:41,774:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:51:41,774:INFO:create_models() succesfully completed......................................
+2022-04-27 03:51:41,774:INFO:Uploading results into container
+2022-04-27 03:51:41,775:INFO:Uploading model into container now
+2022-04-27 03:51:41,776:INFO:create_model_container: 5
+2022-04-27 03:51:41,776:INFO:master_model_container: 5
+2022-04-27 03:51:41,776:INFO:display_container: 6
+2022-04-27 03:51:41,776:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:51:41,776:INFO:create_model() succesfully completed......................................
+2022-04-27 03:51:41,927:INFO:Initializing predict_model()
+2022-04-27 03:51:41,927:INFO:predict_model(estimator=HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:51:41,984:INFO:Initializing create_model()
+2022-04-27 03:51:41,984:INFO:create_model(estimator=knn, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:51:41,984:INFO:Checking exceptions
+2022-04-27 03:51:41,984:INFO:Preparing display monitor
+2022-04-27 03:51:41,998:INFO:Importing libraries
+2022-04-27 03:51:42,010:INFO:Importing untrained model
+2022-04-27 03:51:42,023:INFO:K-Nearest Neighbors Detector Imported succesfully
+2022-04-27 03:51:42,036:INFO:Fitting Model
+2022-04-27 03:51:42,051:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:51:42,051:INFO:create_models() succesfully completed......................................
+2022-04-27 03:51:42,052:INFO:Uploading results into container
+2022-04-27 03:51:42,053:INFO:Uploading model into container now
+2022-04-27 03:51:42,055:INFO:create_model_container: 6
+2022-04-27 03:51:42,055:INFO:master_model_container: 6
+2022-04-27 03:51:42,055:INFO:display_container: 7
+2022-04-27 03:51:42,056:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:51:42,056:INFO:create_model() succesfully completed......................................
+2022-04-27 03:51:42,181:INFO:Initializing predict_model()
+2022-04-27 03:51:42,182:INFO:predict_model(estimator=KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:51:42,281:INFO:Initializing create_model()
+2022-04-27 03:51:42,282:INFO:create_model(estimator=lof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:51:42,282:INFO:Checking exceptions
+2022-04-27 03:51:42,282:INFO:Preparing display monitor
+2022-04-27 03:51:42,294:INFO:Importing libraries
+2022-04-27 03:51:42,304:INFO:Importing untrained model
+2022-04-27 03:51:42,317:INFO:Local Outlier Factor Imported succesfully
+2022-04-27 03:51:42,329:INFO:Fitting Model
+2022-04-27 03:51:42,344:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:51:42,344:INFO:create_models() succesfully completed......................................
+2022-04-27 03:51:42,345:INFO:Uploading results into container
+2022-04-27 03:51:42,346:INFO:Uploading model into container now
+2022-04-27 03:51:42,347:INFO:create_model_container: 7
+2022-04-27 03:51:42,347:INFO:master_model_container: 7
+2022-04-27 03:51:42,348:INFO:display_container: 8
+2022-04-27 03:51:42,348:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:51:42,348:INFO:create_model() succesfully completed......................................
+2022-04-27 03:51:42,478:INFO:Initializing predict_model()
+2022-04-27 03:51:42,479:INFO:predict_model(estimator=LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:51:42,540:INFO:Initializing create_model()
+2022-04-27 03:51:42,541:INFO:create_model(estimator=svm, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:51:42,541:INFO:Checking exceptions
+2022-04-27 03:51:42,541:INFO:Preparing display monitor
+2022-04-27 03:51:42,553:INFO:Importing libraries
+2022-04-27 03:51:42,563:INFO:Importing untrained model
+2022-04-27 03:51:42,573:INFO:One-class SVM detector Imported succesfully
+2022-04-27 03:51:42,586:INFO:Fitting Model
+2022-04-27 03:51:42,594:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:51:42,594:INFO:create_models() succesfully completed......................................
+2022-04-27 03:51:42,595:INFO:Uploading results into container
+2022-04-27 03:51:42,596:INFO:Uploading model into container now
+2022-04-27 03:51:42,597:INFO:create_model_container: 8
+2022-04-27 03:51:42,598:INFO:master_model_container: 8
+2022-04-27 03:51:42,598:INFO:display_container: 9
+2022-04-27 03:51:42,599:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:51:42,599:INFO:create_model() succesfully completed......................................
+2022-04-27 03:51:42,731:INFO:Initializing predict_model()
+2022-04-27 03:51:42,731:INFO:predict_model(estimator=OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:53:43,970:INFO:Initializing create_model()
+2022-04-27 03:53:43,975:INFO:create_model(estimator=abod, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:53:43,976:INFO:Checking exceptions
+2022-04-27 03:53:43,976:INFO:Preparing display monitor
+2022-04-27 03:53:43,993:INFO:Importing libraries
+2022-04-27 03:53:44,004:INFO:Importing untrained model
+2022-04-27 03:53:44,015:INFO:Angle-base Outlier Detection Imported succesfully
+2022-04-27 03:53:44,029:INFO:Fitting Model
+2022-04-27 03:53:44,086:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:53:44,086:INFO:create_models() succesfully completed......................................
+2022-04-27 03:53:44,087:INFO:Uploading results into container
+2022-04-27 03:53:44,088:INFO:Uploading model into container now
+2022-04-27 03:53:44,089:INFO:create_model_container: 9
+2022-04-27 03:53:44,089:INFO:master_model_container: 9
+2022-04-27 03:53:44,090:INFO:display_container: 10
+2022-04-27 03:53:44,090:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:53:44,090:INFO:create_model() succesfully completed......................................
+2022-04-27 03:53:44,228:INFO:Initializing predict_model()
+2022-04-27 03:53:44,228:INFO:predict_model(estimator=ABOD(contamination=0.03, method='fast', n_neighbors=5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:22,027:INFO:Initializing create_model()
+2022-04-27 03:54:22,027:INFO:create_model(estimator=abod, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:22,028:INFO:Checking exceptions
+2022-04-27 03:54:22,028:INFO:Preparing display monitor
+2022-04-27 03:54:22,048:INFO:Importing libraries
+2022-04-27 03:54:22,068:INFO:Importing untrained model
+2022-04-27 03:54:22,082:INFO:Angle-base Outlier Detection Imported succesfully
+2022-04-27 03:54:22,099:INFO:Fitting Model
+2022-04-27 03:54:22,193:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:54:22,194:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:22,195:INFO:Uploading results into container
+2022-04-27 03:54:22,196:INFO:Uploading model into container now
+2022-04-27 03:54:22,211:INFO:create_model_container: 10
+2022-04-27 03:54:22,211:INFO:master_model_container: 10
+2022-04-27 03:54:22,211:INFO:display_container: 11
+2022-04-27 03:54:22,212:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:54:22,212:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:22,502:INFO:Initializing predict_model()
+2022-04-27 03:54:22,502:INFO:predict_model(estimator=ABOD(contamination=0.03, method='fast', n_neighbors=5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:22,665:INFO:Initializing create_model()
+2022-04-27 03:54:22,666:INFO:create_model(estimator=cluster, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:22,666:INFO:Checking exceptions
+2022-04-27 03:54:22,666:INFO:Preparing display monitor
+2022-04-27 03:54:22,682:INFO:Importing libraries
+2022-04-27 03:54:22,692:INFO:Importing untrained model
+2022-04-27 03:54:22,705:INFO:Clustering-Based Local Outlier Imported succesfully
+2022-04-27 03:54:22,717:INFO:Fitting Model
+2022-04-27 03:54:22,782:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:54:22,782:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:22,783:INFO:Uploading results into container
+2022-04-27 03:54:22,783:INFO:Uploading model into container now
+2022-04-27 03:54:22,784:INFO:create_model_container: 11
+2022-04-27 03:54:22,784:INFO:master_model_container: 11
+2022-04-27 03:54:22,784:INFO:display_container: 12
+2022-04-27 03:54:22,785:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:54:22,785:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:22,935:INFO:Initializing predict_model()
+2022-04-27 03:54:22,935:INFO:predict_model(estimator=CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:22,988:INFO:Initializing create_model()
+2022-04-27 03:54:22,988:INFO:create_model(estimator=cof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:22,988:INFO:Checking exceptions
+2022-04-27 03:54:22,988:INFO:Preparing display monitor
+2022-04-27 03:54:23,006:INFO:Importing libraries
+2022-04-27 03:54:23,022:INFO:Importing untrained model
+2022-04-27 03:54:23,046:WARNING:create_model_unsupervised() for COF(contamination=0.03, method='fast', n_neighbors=None) raised an exception when cloning:
+2022-04-27 03:54:23,047:WARNING:Traceback (most recent call last):
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 2654, in create_model_unsupervised
+    model = clone(model)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/utils/validation.py", line 72, in inner_f
+    return f(**kwargs)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/base.py", line 88, in clone
+    new_object = klass(**new_object_params)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pyod/models/cof.py", line 87, in __init__
+    raise TypeError(
+TypeError: n_neighbors should be int. Got <class 'NoneType'>
+
+2022-04-27 03:54:23,048:INFO:Connectivity-Based Local Outlier Imported succesfully
+2022-04-27 03:54:23,068:INFO:Fitting Model
+2022-04-27 03:54:23,168:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:54:23,169:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:23,169:INFO:Uploading results into container
+2022-04-27 03:54:23,170:INFO:Uploading model into container now
+2022-04-27 03:54:23,181:INFO:create_model_container: 12
+2022-04-27 03:54:23,181:INFO:master_model_container: 12
+2022-04-27 03:54:23,181:INFO:display_container: 13
+2022-04-27 03:54:23,182:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:54:23,182:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:23,422:INFO:Initializing predict_model()
+2022-04-27 03:54:23,423:INFO:predict_model(estimator=COF(contamination=0.03, method='fast', n_neighbors=None), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:23,540:INFO:Initializing create_model()
+2022-04-27 03:54:23,540:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:23,541:INFO:Checking exceptions
+2022-04-27 03:54:23,541:INFO:Preparing display monitor
+2022-04-27 03:54:23,551:INFO:Importing libraries
+2022-04-27 03:54:23,559:INFO:Importing untrained model
+2022-04-27 03:54:23,568:INFO:Isolation Forest Imported succesfully
+2022-04-27 03:54:23,578:INFO:Fitting Model
+2022-04-27 03:54:24,283:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:54:24,284:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:24,284:INFO:Uploading results into container
+2022-04-27 03:54:24,285:INFO:Uploading model into container now
+2022-04-27 03:54:24,285:INFO:create_model_container: 13
+2022-04-27 03:54:24,285:INFO:master_model_container: 13
+2022-04-27 03:54:24,286:INFO:display_container: 14
+2022-04-27 03:54:24,286:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:54:24,286:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:24,476:INFO:Initializing predict_model()
+2022-04-27 03:54:24,477:INFO:predict_model(estimator=IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:24,651:INFO:Initializing create_model()
+2022-04-27 03:54:24,651:INFO:create_model(estimator=histogram, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:24,651:INFO:Checking exceptions
+2022-04-27 03:54:24,651:INFO:Preparing display monitor
+2022-04-27 03:54:24,664:INFO:Importing libraries
+2022-04-27 03:54:24,672:INFO:Importing untrained model
+2022-04-27 03:54:24,683:INFO:Histogram-based Outlier Detection Imported succesfully
+2022-04-27 03:54:24,694:INFO:Fitting Model
+2022-04-27 03:54:24,698:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:54:24,699:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:24,700:INFO:Uploading results into container
+2022-04-27 03:54:24,700:INFO:Uploading model into container now
+2022-04-27 03:54:24,702:INFO:create_model_container: 14
+2022-04-27 03:54:24,702:INFO:master_model_container: 14
+2022-04-27 03:54:24,702:INFO:display_container: 15
+2022-04-27 03:54:24,703:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:54:24,703:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:24,909:INFO:Initializing predict_model()
+2022-04-27 03:54:24,909:INFO:predict_model(estimator=HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:24,967:INFO:Initializing create_model()
+2022-04-27 03:54:24,968:INFO:create_model(estimator=knn, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:24,968:INFO:Checking exceptions
+2022-04-27 03:54:24,968:INFO:Preparing display monitor
+2022-04-27 03:54:24,980:INFO:Importing libraries
+2022-04-27 03:54:24,989:INFO:Importing untrained model
+2022-04-27 03:54:25,000:INFO:K-Nearest Neighbors Detector Imported succesfully
+2022-04-27 03:54:25,011:INFO:Fitting Model
+2022-04-27 03:54:25,024:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:54:25,024:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:25,025:INFO:Uploading results into container
+2022-04-27 03:54:25,026:INFO:Uploading model into container now
+2022-04-27 03:54:25,027:INFO:create_model_container: 15
+2022-04-27 03:54:25,027:INFO:master_model_container: 15
+2022-04-27 03:54:25,027:INFO:display_container: 16
+2022-04-27 03:54:25,028:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:54:25,028:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:25,244:INFO:Initializing predict_model()
+2022-04-27 03:54:25,245:INFO:predict_model(estimator=KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:25,414:INFO:Initializing create_model()
+2022-04-27 03:54:25,414:INFO:create_model(estimator=lof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:25,414:INFO:Checking exceptions
+2022-04-27 03:54:25,414:INFO:Preparing display monitor
+2022-04-27 03:54:25,434:INFO:Importing libraries
+2022-04-27 03:54:25,449:INFO:Importing untrained model
+2022-04-27 03:54:25,468:INFO:Local Outlier Factor Imported succesfully
+2022-04-27 03:54:25,487:INFO:Fitting Model
+2022-04-27 03:54:25,507:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:54:25,507:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:25,509:INFO:Uploading results into container
+2022-04-27 03:54:25,510:INFO:Uploading model into container now
+2022-04-27 03:54:25,511:INFO:create_model_container: 16
+2022-04-27 03:54:25,511:INFO:master_model_container: 16
+2022-04-27 03:54:25,511:INFO:display_container: 17
+2022-04-27 03:54:25,512:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:54:25,513:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:25,732:INFO:Initializing predict_model()
+2022-04-27 03:54:25,733:INFO:predict_model(estimator=LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:25,794:INFO:Initializing create_model()
+2022-04-27 03:54:25,795:INFO:create_model(estimator=svm, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:25,795:INFO:Checking exceptions
+2022-04-27 03:54:25,795:INFO:Preparing display monitor
+2022-04-27 03:54:25,807:INFO:Importing libraries
+2022-04-27 03:54:25,817:INFO:Importing untrained model
+2022-04-27 03:54:25,825:INFO:One-class SVM detector Imported succesfully
+2022-04-27 03:54:25,838:INFO:Fitting Model
+2022-04-27 03:54:25,845:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:54:25,845:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:25,846:INFO:Uploading results into container
+2022-04-27 03:54:25,846:INFO:Uploading model into container now
+2022-04-27 03:54:25,849:INFO:create_model_container: 17
+2022-04-27 03:54:25,849:INFO:master_model_container: 17
+2022-04-27 03:54:25,849:INFO:display_container: 18
+2022-04-27 03:54:25,850:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:54:25,850:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:26,039:INFO:Initializing predict_model()
+2022-04-27 03:54:26,040:INFO:predict_model(estimator=OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:56,176:INFO:Initializing create_model()
+2022-04-27 03:54:56,177:INFO:create_model(estimator=abod, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:56,177:INFO:Checking exceptions
+2022-04-27 03:54:56,177:INFO:Preparing display monitor
+2022-04-27 03:54:56,199:INFO:Importing libraries
+2022-04-27 03:54:56,223:INFO:Importing untrained model
+2022-04-27 03:54:56,243:INFO:Angle-base Outlier Detection Imported succesfully
+2022-04-27 03:54:56,266:INFO:Fitting Model
+2022-04-27 03:54:56,332:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:54:56,332:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:56,334:INFO:Uploading results into container
+2022-04-27 03:54:56,334:INFO:Uploading model into container now
+2022-04-27 03:54:56,336:INFO:create_model_container: 18
+2022-04-27 03:54:56,336:INFO:master_model_container: 18
+2022-04-27 03:54:56,336:INFO:display_container: 19
+2022-04-27 03:54:56,337:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:54:56,337:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:56,534:INFO:Initializing predict_model()
+2022-04-27 03:54:56,534:INFO:predict_model(estimator=ABOD(contamination=0.03, method='fast', n_neighbors=5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:56,680:INFO:Initializing create_model()
+2022-04-27 03:54:56,681:INFO:create_model(estimator=cluster, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:56,681:INFO:Checking exceptions
+2022-04-27 03:54:56,681:INFO:Preparing display monitor
+2022-04-27 03:54:56,693:INFO:Importing libraries
+2022-04-27 03:54:56,701:INFO:Importing untrained model
+2022-04-27 03:54:56,711:INFO:Clustering-Based Local Outlier Imported succesfully
+2022-04-27 03:54:56,722:INFO:Fitting Model
+2022-04-27 03:54:56,784:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:54:56,784:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:56,785:INFO:Uploading results into container
+2022-04-27 03:54:56,785:INFO:Uploading model into container now
+2022-04-27 03:54:56,786:INFO:create_model_container: 19
+2022-04-27 03:54:56,786:INFO:master_model_container: 19
+2022-04-27 03:54:56,786:INFO:display_container: 20
+2022-04-27 03:54:56,787:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:54:56,787:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:56,952:INFO:Initializing predict_model()
+2022-04-27 03:54:56,952:INFO:predict_model(estimator=CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:57,005:INFO:Initializing create_model()
+2022-04-27 03:54:57,005:INFO:create_model(estimator=cof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:57,005:INFO:Checking exceptions
+2022-04-27 03:54:57,006:INFO:Preparing display monitor
+2022-04-27 03:54:57,023:INFO:Importing libraries
+2022-04-27 03:54:57,035:INFO:Importing untrained model
+2022-04-27 03:54:57,045:WARNING:create_model_unsupervised() for COF(contamination=0.03, method='fast', n_neighbors=None) raised an exception when cloning:
+2022-04-27 03:54:57,046:WARNING:Traceback (most recent call last):
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 2654, in create_model_unsupervised
+    model = clone(model)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/utils/validation.py", line 72, in inner_f
+    return f(**kwargs)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/base.py", line 88, in clone
+    new_object = klass(**new_object_params)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pyod/models/cof.py", line 87, in __init__
+    raise TypeError(
+TypeError: n_neighbors should be int. Got <class 'NoneType'>
+
+2022-04-27 03:54:57,046:INFO:Connectivity-Based Local Outlier Imported succesfully
+2022-04-27 03:54:57,059:INFO:Fitting Model
+2022-04-27 03:54:57,116:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:54:57,117:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:57,117:INFO:Uploading results into container
+2022-04-27 03:54:57,118:INFO:Uploading model into container now
+2022-04-27 03:54:57,119:INFO:create_model_container: 20
+2022-04-27 03:54:57,119:INFO:master_model_container: 20
+2022-04-27 03:54:57,119:INFO:display_container: 21
+2022-04-27 03:54:57,119:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:54:57,119:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:57,280:INFO:Initializing predict_model()
+2022-04-27 03:54:57,280:INFO:predict_model(estimator=COF(contamination=0.03, method='fast', n_neighbors=None), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:57,417:INFO:Initializing create_model()
+2022-04-27 03:54:57,417:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:57,417:INFO:Checking exceptions
+2022-04-27 03:54:57,417:INFO:Preparing display monitor
+2022-04-27 03:54:57,433:INFO:Importing libraries
+2022-04-27 03:54:57,444:INFO:Importing untrained model
+2022-04-27 03:54:57,457:INFO:Isolation Forest Imported succesfully
+2022-04-27 03:54:57,476:INFO:Fitting Model
+2022-04-27 03:54:58,240:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:54:58,240:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:58,241:INFO:Uploading results into container
+2022-04-27 03:54:58,241:INFO:Uploading model into container now
+2022-04-27 03:54:58,242:INFO:create_model_container: 21
+2022-04-27 03:54:58,242:INFO:master_model_container: 21
+2022-04-27 03:54:58,243:INFO:display_container: 22
+2022-04-27 03:54:58,243:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:54:58,243:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:58,453:INFO:Initializing predict_model()
+2022-04-27 03:54:58,453:INFO:predict_model(estimator=IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:58,659:INFO:Initializing create_model()
+2022-04-27 03:54:58,660:INFO:create_model(estimator=histogram, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:58,660:INFO:Checking exceptions
+2022-04-27 03:54:58,660:INFO:Preparing display monitor
+2022-04-27 03:54:58,678:INFO:Importing libraries
+2022-04-27 03:54:58,691:INFO:Importing untrained model
+2022-04-27 03:54:58,706:INFO:Histogram-based Outlier Detection Imported succesfully
+2022-04-27 03:54:58,724:INFO:Fitting Model
+2022-04-27 03:54:58,731:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:54:58,731:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:58,733:INFO:Uploading results into container
+2022-04-27 03:54:58,734:INFO:Uploading model into container now
+2022-04-27 03:54:58,736:INFO:create_model_container: 22
+2022-04-27 03:54:58,736:INFO:master_model_container: 22
+2022-04-27 03:54:58,736:INFO:display_container: 23
+2022-04-27 03:54:58,737:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:54:58,737:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:58,961:INFO:Initializing predict_model()
+2022-04-27 03:54:58,961:INFO:predict_model(estimator=HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:59,009:INFO:Initializing create_model()
+2022-04-27 03:54:59,009:INFO:create_model(estimator=knn, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:59,009:INFO:Checking exceptions
+2022-04-27 03:54:59,009:INFO:Preparing display monitor
+2022-04-27 03:54:59,020:INFO:Importing libraries
+2022-04-27 03:54:59,030:INFO:Importing untrained model
+2022-04-27 03:54:59,043:INFO:K-Nearest Neighbors Detector Imported succesfully
+2022-04-27 03:54:59,056:INFO:Fitting Model
+2022-04-27 03:54:59,069:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:54:59,069:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:59,070:INFO:Uploading results into container
+2022-04-27 03:54:59,070:INFO:Uploading model into container now
+2022-04-27 03:54:59,072:INFO:create_model_container: 23
+2022-04-27 03:54:59,072:INFO:master_model_container: 23
+2022-04-27 03:54:59,072:INFO:display_container: 24
+2022-04-27 03:54:59,072:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:54:59,073:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:59,244:INFO:Initializing predict_model()
+2022-04-27 03:54:59,245:INFO:predict_model(estimator=KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:59,329:INFO:Initializing create_model()
+2022-04-27 03:54:59,329:INFO:create_model(estimator=lof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:59,329:INFO:Checking exceptions
+2022-04-27 03:54:59,329:INFO:Preparing display monitor
+2022-04-27 03:54:59,339:INFO:Importing libraries
+2022-04-27 03:54:59,349:INFO:Importing untrained model
+2022-04-27 03:54:59,358:INFO:Local Outlier Factor Imported succesfully
+2022-04-27 03:54:59,372:INFO:Fitting Model
+2022-04-27 03:54:59,388:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:54:59,388:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:59,388:INFO:Uploading results into container
+2022-04-27 03:54:59,389:INFO:Uploading model into container now
+2022-04-27 03:54:59,390:INFO:create_model_container: 24
+2022-04-27 03:54:59,391:INFO:master_model_container: 24
+2022-04-27 03:54:59,391:INFO:display_container: 25
+2022-04-27 03:54:59,391:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:54:59,391:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:59,562:INFO:Initializing predict_model()
+2022-04-27 03:54:59,562:INFO:predict_model(estimator=LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:54:59,626:INFO:Initializing create_model()
+2022-04-27 03:54:59,626:INFO:create_model(estimator=svm, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:54:59,626:INFO:Checking exceptions
+2022-04-27 03:54:59,626:INFO:Preparing display monitor
+2022-04-27 03:54:59,642:INFO:Importing libraries
+2022-04-27 03:54:59,655:INFO:Importing untrained model
+2022-04-27 03:54:59,669:INFO:One-class SVM detector Imported succesfully
+2022-04-27 03:54:59,684:INFO:Fitting Model
+2022-04-27 03:54:59,692:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:54:59,692:INFO:create_models() succesfully completed......................................
+2022-04-27 03:54:59,693:INFO:Uploading results into container
+2022-04-27 03:54:59,694:INFO:Uploading model into container now
+2022-04-27 03:54:59,695:INFO:create_model_container: 25
+2022-04-27 03:54:59,695:INFO:master_model_container: 25
+2022-04-27 03:54:59,695:INFO:display_container: 26
+2022-04-27 03:54:59,695:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:54:59,695:INFO:create_model() succesfully completed......................................
+2022-04-27 03:54:59,899:INFO:Initializing predict_model()
+2022-04-27 03:54:59,899:INFO:predict_model(estimator=OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:56:01,400:INFO:Initializing create_model()
+2022-04-27 03:56:01,401:INFO:create_model(estimator=abod, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:56:01,401:INFO:Checking exceptions
+2022-04-27 03:56:01,401:INFO:Preparing display monitor
+2022-04-27 03:56:01,416:INFO:Importing libraries
+2022-04-27 03:56:01,434:INFO:Importing untrained model
+2022-04-27 03:56:01,445:INFO:Angle-base Outlier Detection Imported succesfully
+2022-04-27 03:56:01,458:INFO:Fitting Model
+2022-04-27 03:56:01,510:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:56:01,510:INFO:create_models() succesfully completed......................................
+2022-04-27 03:56:01,511:INFO:Uploading results into container
+2022-04-27 03:56:01,511:INFO:Uploading model into container now
+2022-04-27 03:56:01,512:INFO:create_model_container: 26
+2022-04-27 03:56:01,512:INFO:master_model_container: 26
+2022-04-27 03:56:01,513:INFO:display_container: 27
+2022-04-27 03:56:01,513:INFO:ABOD(contamination=0.03, method='fast', n_neighbors=5)
+2022-04-27 03:56:01,513:INFO:create_model() succesfully completed......................................
+2022-04-27 03:56:01,698:INFO:Initializing predict_model()
+2022-04-27 03:56:01,699:INFO:predict_model(estimator=ABOD(contamination=0.03, method='fast', n_neighbors=5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:56:01,827:INFO:Initializing create_model()
+2022-04-27 03:56:01,827:INFO:create_model(estimator=cluster, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:56:01,827:INFO:Checking exceptions
+2022-04-27 03:56:01,827:INFO:Preparing display monitor
+2022-04-27 03:56:01,839:INFO:Importing libraries
+2022-04-27 03:56:01,849:INFO:Importing untrained model
+2022-04-27 03:56:01,858:INFO:Clustering-Based Local Outlier Imported succesfully
+2022-04-27 03:56:01,870:INFO:Fitting Model
+2022-04-27 03:56:01,938:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:56:01,938:INFO:create_models() succesfully completed......................................
+2022-04-27 03:56:01,939:INFO:Uploading results into container
+2022-04-27 03:56:01,939:INFO:Uploading model into container now
+2022-04-27 03:56:01,940:INFO:create_model_container: 27
+2022-04-27 03:56:01,940:INFO:master_model_container: 27
+2022-04-27 03:56:01,940:INFO:display_container: 28
+2022-04-27 03:56:01,940:INFO:CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False)
+2022-04-27 03:56:01,941:INFO:create_model() succesfully completed......................................
+2022-04-27 03:56:02,114:INFO:Initializing predict_model()
+2022-04-27 03:56:02,115:INFO:predict_model(estimator=CBLOF(alpha=0.9, beta=5, check_estimator=False, clustering_estimator=None,
+   contamination=0.03, n_clusters=8, n_jobs=None, random_state=1,
+   use_weights=False), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:56:02,165:INFO:Initializing create_model()
+2022-04-27 03:56:02,165:INFO:create_model(estimator=cof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:56:02,165:INFO:Checking exceptions
+2022-04-27 03:56:02,165:INFO:Preparing display monitor
+2022-04-27 03:56:02,177:INFO:Importing libraries
+2022-04-27 03:56:02,187:INFO:Importing untrained model
+2022-04-27 03:56:02,199:WARNING:create_model_unsupervised() for COF(contamination=0.03, method='fast', n_neighbors=None) raised an exception when cloning:
+2022-04-27 03:56:02,200:WARNING:Traceback (most recent call last):
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 2654, in create_model_unsupervised
+    model = clone(model)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/utils/validation.py", line 72, in inner_f
+    return f(**kwargs)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/sklearn/base.py", line 88, in clone
+    new_object = klass(**new_object_params)
+  File "/Users/tarekatwan/opt/anaconda3/envs/pycaret/lib/python3.8/site-packages/pyod/models/cof.py", line 87, in __init__
+    raise TypeError(
+TypeError: n_neighbors should be int. Got <class 'NoneType'>
+
+2022-04-27 03:56:02,200:INFO:Connectivity-Based Local Outlier Imported succesfully
+2022-04-27 03:56:02,212:INFO:Fitting Model
+2022-04-27 03:56:02,263:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:56:02,263:INFO:create_models() succesfully completed......................................
+2022-04-27 03:56:02,264:INFO:Uploading results into container
+2022-04-27 03:56:02,264:INFO:Uploading model into container now
+2022-04-27 03:56:02,265:INFO:create_model_container: 28
+2022-04-27 03:56:02,265:INFO:master_model_container: 28
+2022-04-27 03:56:02,265:INFO:display_container: 29
+2022-04-27 03:56:02,265:INFO:COF(contamination=0.03, method='fast', n_neighbors=None)
+2022-04-27 03:56:02,265:INFO:create_model() succesfully completed......................................
+2022-04-27 03:56:02,430:INFO:Initializing predict_model()
+2022-04-27 03:56:02,430:INFO:predict_model(estimator=COF(contamination=0.03, method='fast', n_neighbors=None), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:56:02,576:INFO:Initializing create_model()
+2022-04-27 03:56:02,576:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:56:02,576:INFO:Checking exceptions
+2022-04-27 03:56:02,576:INFO:Preparing display monitor
+2022-04-27 03:56:02,587:INFO:Importing libraries
+2022-04-27 03:56:02,597:INFO:Importing untrained model
+2022-04-27 03:56:02,607:INFO:Isolation Forest Imported succesfully
+2022-04-27 03:56:02,619:INFO:Fitting Model
+2022-04-27 03:56:03,170:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:56:03,170:INFO:create_models() succesfully completed......................................
+2022-04-27 03:56:03,171:INFO:Uploading results into container
+2022-04-27 03:56:03,171:INFO:Uploading model into container now
+2022-04-27 03:56:03,172:INFO:create_model_container: 29
+2022-04-27 03:56:03,172:INFO:master_model_container: 29
+2022-04-27 03:56:03,172:INFO:display_container: 30
+2022-04-27 03:56:03,173:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0)
+2022-04-27 03:56:03,173:INFO:create_model() succesfully completed......................................
+2022-04-27 03:56:03,344:INFO:Initializing predict_model()
+2022-04-27 03:56:03,344:INFO:predict_model(estimator=IForest(behaviour='new', bootstrap=False, contamination=0.03,
+    max_features=1.0, max_samples='auto', n_estimators=100, n_jobs=-1,
+    random_state=1, verbose=0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:56:03,475:INFO:Initializing create_model()
+2022-04-27 03:56:03,476:INFO:create_model(estimator=histogram, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:56:03,476:INFO:Checking exceptions
+2022-04-27 03:56:03,476:INFO:Preparing display monitor
+2022-04-27 03:56:03,487:INFO:Importing libraries
+2022-04-27 03:56:03,495:INFO:Importing untrained model
+2022-04-27 03:56:03,502:INFO:Histogram-based Outlier Detection Imported succesfully
+2022-04-27 03:56:03,513:INFO:Fitting Model
+2022-04-27 03:56:03,517:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:56:03,517:INFO:create_models() succesfully completed......................................
+2022-04-27 03:56:03,518:INFO:Uploading results into container
+2022-04-27 03:56:03,518:INFO:Uploading model into container now
+2022-04-27 03:56:03,519:INFO:create_model_container: 30
+2022-04-27 03:56:03,519:INFO:master_model_container: 30
+2022-04-27 03:56:03,520:INFO:display_container: 31
+2022-04-27 03:56:03,520:INFO:HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5)
+2022-04-27 03:56:03,520:INFO:create_model() succesfully completed......................................
+2022-04-27 03:56:03,696:INFO:Initializing predict_model()
+2022-04-27 03:56:03,697:INFO:predict_model(estimator=HBOS(alpha=0.1, contamination=0.03, n_bins=10, tol=0.5), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:56:03,749:INFO:Initializing create_model()
+2022-04-27 03:56:03,749:INFO:create_model(estimator=knn, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:56:03,749:INFO:Checking exceptions
+2022-04-27 03:56:03,749:INFO:Preparing display monitor
+2022-04-27 03:56:03,761:INFO:Importing libraries
+2022-04-27 03:56:03,771:INFO:Importing untrained model
+2022-04-27 03:56:03,781:INFO:K-Nearest Neighbors Detector Imported succesfully
+2022-04-27 03:56:03,792:INFO:Fitting Model
+2022-04-27 03:56:03,804:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:56:03,805:INFO:create_models() succesfully completed......................................
+2022-04-27 03:56:03,806:INFO:Uploading results into container
+2022-04-27 03:56:03,806:INFO:Uploading model into container now
+2022-04-27 03:56:03,807:INFO:create_model_container: 31
+2022-04-27 03:56:03,808:INFO:master_model_container: 31
+2022-04-27 03:56:03,808:INFO:display_container: 32
+2022-04-27 03:56:03,808:INFO:KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2022-04-27 03:56:03,808:INFO:create_model() succesfully completed......................................
+2022-04-27 03:56:03,974:INFO:Initializing predict_model()
+2022-04-27 03:56:03,975:INFO:predict_model(estimator=KNN(algorithm='auto', contamination=0.03, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:56:04,072:INFO:Initializing create_model()
+2022-04-27 03:56:04,072:INFO:create_model(estimator=lof, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:56:04,072:INFO:Checking exceptions
+2022-04-27 03:56:04,072:INFO:Preparing display monitor
+2022-04-27 03:56:04,083:INFO:Importing libraries
+2022-04-27 03:56:04,091:INFO:Importing untrained model
+2022-04-27 03:56:04,101:INFO:Local Outlier Factor Imported succesfully
+2022-04-27 03:56:04,111:INFO:Fitting Model
+2022-04-27 03:56:04,123:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:56:04,124:INFO:create_models() succesfully completed......................................
+2022-04-27 03:56:04,124:INFO:Uploading results into container
+2022-04-27 03:56:04,125:INFO:Uploading model into container now
+2022-04-27 03:56:04,126:INFO:create_model_container: 32
+2022-04-27 03:56:04,126:INFO:master_model_container: 32
+2022-04-27 03:56:04,126:INFO:display_container: 33
+2022-04-27 03:56:04,127:INFO:LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2)
+2022-04-27 03:56:04,127:INFO:create_model() succesfully completed......................................
+2022-04-27 03:56:04,289:INFO:Initializing predict_model()
+2022-04-27 03:56:04,290:INFO:predict_model(estimator=LOF(algorithm='auto', contamination=0.03, leaf_size=30, metric='minkowski',
+  metric_params=None, n_jobs=-1, n_neighbors=20, novelty=True, p=2), ml_usecase=MLUsecase.ANOMALY)
+2022-04-27 03:56:04,355:INFO:Initializing create_model()
+2022-04-27 03:56:04,355:INFO:create_model(estimator=svm, num_clusters=4, fraction=0.03, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-04-27 03:56:04,355:INFO:Checking exceptions
+2022-04-27 03:56:04,355:INFO:Preparing display monitor
+2022-04-27 03:56:04,367:INFO:Importing libraries
+2022-04-27 03:56:04,376:INFO:Importing untrained model
+2022-04-27 03:56:04,386:INFO:One-class SVM detector Imported succesfully
+2022-04-27 03:56:04,397:INFO:Fitting Model
+2022-04-27 03:56:04,404:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:56:04,405:INFO:create_models() succesfully completed......................................
+2022-04-27 03:56:04,405:INFO:Uploading results into container
+2022-04-27 03:56:04,406:INFO:Uploading model into container now
+2022-04-27 03:56:04,407:INFO:create_model_container: 33
+2022-04-27 03:56:04,407:INFO:master_model_container: 33
+2022-04-27 03:56:04,408:INFO:display_container: 34
+2022-04-27 03:56:04,408:INFO:OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False)
+2022-04-27 03:56:04,408:INFO:create_model() succesfully completed......................................
+2022-04-27 03:56:04,582:INFO:Initializing predict_model()
+2022-04-27 03:56:04,583:INFO:predict_model(estimator=OCSVM(cache_size=200, coef0=0.0, contamination=0.03, degree=3, gamma='auto',
+   kernel='rbf', max_iter=-1, nu=0.5, shrinking=True, tol=0.001,
+   verbose=False), ml_usecase=MLUsecase.ANOMALY)
