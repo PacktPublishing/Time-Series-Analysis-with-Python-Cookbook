@@ -11,4 +11,4 @@ dependencies:
   - lxml
   - html5lib
   - beautifulsoup4
-  - dask
+  - memory_profiler
