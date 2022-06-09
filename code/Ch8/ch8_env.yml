@@ -1,0 +1,10 @@
+name: ch8
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - statsmodels
+  - pandas
+  - python=3.9
+  - seaborn
+  - ipykernel

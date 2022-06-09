@@ -1,0 +1,11 @@
+name: ch9
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - ipykernel
+  - statsmodels
+  - python=3.9
+  - matplotlib
+  - hvplot
+  - seaborn

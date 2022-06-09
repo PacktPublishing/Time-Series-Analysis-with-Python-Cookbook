@@ -1,0 +1,12 @@
+name: ch7
+channels:
+  - defaults
+dependencies:
+  - scikit-learn
+  - numpy
+  - pandas
+  - scipy
+  - python=3.9
+  - statsmodels
+  - matplotlib
+  - ipykernel

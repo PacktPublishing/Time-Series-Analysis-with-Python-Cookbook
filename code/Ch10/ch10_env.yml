@@ -1,0 +1,11 @@
+name: ch10
+channels:
+  - defaults
+dependencies:
+  - statsmodels
+  - python=3.9
+  - matplotlib
+  - pandas
+  - ipykernel
+  - scikit-learn
+  - u8darts-all

@@ -1,0 +1,16 @@
+name: ch3
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - sqlalchemy
+  - python=3.9
+  - ipykernel
+  - psycopg2
+  - pandas-datareader
+  - influxdb-client
+  - matplotlib
+  - pymongo
+  - snowflake-sqlalchemy
+  - pymysql
+  - snowflake-connector-python

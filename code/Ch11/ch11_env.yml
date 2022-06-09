@@ -1,0 +1,12 @@
+name: ch11
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - ipykernel
+  - statsmodels
+  - python=3.8
+  - pmdarima
+  - prophet
+  - arch-py
+  - pandas-datareader
