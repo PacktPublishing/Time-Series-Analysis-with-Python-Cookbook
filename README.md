@@ -2,10 +2,7 @@
 
 Time Series Analysis with Python Cookbook, published by Packt
 
-
-
-![image-20220616223122113](images/image-20220616223122113.png = 250x250)
-
+[<img src="images/image-20220616223122113.png" width="250">](https://www.amazon.com/Time-Analysis-Python-Cookbook-exploratory-dp-1801075549/dp/1801075549/)
 
 
 **Perform time series analysis and forecasting confidently with this Python code bank and reference manual**
