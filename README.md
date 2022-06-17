@@ -71,36 +71,9 @@ This book is for data analysts, business analysts, data scientists, data enginee
 
 ### Author Notes:
 
-> * Working on adding Colab notebook versions 
->
->   - [ ] Chapter 1
->
->   - [ ] Chapter 2
->
->   - [ ] Chapter 3
->
->   - [ ] Chapter 4
->
->   - [ ] Chapter 5
->
->   - [ ] Chapter 6 
->
->   - [ ] Chapter 7
->
->   - [ ] Chapter 8
->
->   - [ ] Chapter 9
->
->   - [ ] Chapter 10
->
->   - [x] Chapter 11
->
->   - [x] Chapter 12
->
->   - [ ] Chapter 13
->
->   - [x] Chapter 14
->
->   - [ ] Chapter 15
->
-> * Added YAML environment file and requirements.txt files for each chapter
+* Working on adding Colab notebook versions 
+- [x] Chapter 11
+- [x] Chapter 12
+- [x] Chapter 14
+
+* Added YAML environment file and requirements.txt files for each chapter
