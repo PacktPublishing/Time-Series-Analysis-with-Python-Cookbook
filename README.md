@@ -1,6 +1,6 @@
 # Time Series Analysis with Python Cookbook
 
-Time Series Analysis with Python Cookbook, published by Packt
+
 
 [<img src="images/image-20220616223122113.png" width="250">](https://www.amazon.com/Time-Analysis-Python-Cookbook-exploratory-dp-1801075549/dp/1801075549/)
 
