@@ -69,6 +69,30 @@ This book is for data analysts, business analysts, data scientists, data enginee
 
 
 
+### Python Libraries & Frameworks Covered
+
+* [pandas](https://pandas.pydata.org)
+* [Statsmodels](https://www.statsmodels.org/stable/index.html)
+* [SciPy](https://scipy.org)
+* [pmdarima](https://github.com/alkaline-ml/pmdarima) for AutoArima 
+* [arch](https://github.com/bashtage/arch)
+* [Scikit-Learn](https://scikit-learn.org/stable/)
+* [sktime](https://www.sktime.org/en/stable/)
+* [Darts](https://unit8co.github.io/darts/)
+* [PyCaret](https://pycaret.org)
+* [Prophet](https://facebook.github.io/prophet/)
+* [NeuralProphet](https://neuralprophet.com/html/index.html)
+* [PyOD](https://github.com/yzhao062/pyod)
+* [TensorFlow](https://www.tensorflow.org)
+* [PyTorch](https://pytorch.org)
+* [Modin](https://modin.readthedocs.io/en/stable/) 
+* [hvPlot](https://hvplot.holoviz.org)
+* [Matplotlib](https://matplotlib.org)
+* [seaborn](https://seaborn.pydata.org)
+* [SQLAlchemy](https://www.sqlalchemy.org)
+
+
+
 ### Author Notes:
 
 * Working on adding Colab notebook versions 
