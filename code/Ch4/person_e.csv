@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:97ebb38ad8da5047d7dfe14f187517cfd11861ad767a68ca8f12ed5d94afd950
-size 125
+name,location,net_worth
+Bond	, James,Los Angeles	, CA,10000
+Smith	, James,Phoenix	, AZ,9000
+Bacon	, Kevin,New York	, NY,8000

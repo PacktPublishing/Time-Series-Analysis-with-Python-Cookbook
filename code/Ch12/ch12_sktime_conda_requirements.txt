@@ -1,3 +1,73 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:39b50f505899dbfffe505c1d2ef3fd9b5b641f33fe2441b539801a4e6ef2d640
-size 1967
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+appnope=0.1.2=py39hecd8cb5_1001
+asttokens=2.0.5=pyhd3eb1b0_0
+backcall=0.2.0=pyhd3eb1b0_0
+ca-certificates=2022.4.26=hecd8cb5_0
+certifi=2022.5.18.1=py39hecd8cb5_0
+cycler=0.11.0=pypi_0
+cython=0.29.30=pypi_0
+debugpy=1.5.1=py39he9d5cce_0
+decorator=5.1.1=pyhd3eb1b0_0
+deprecated=1.2.13=pypi_0
+entrypoints=0.4=py39hecd8cb5_0
+executing=0.8.3=pyhd3eb1b0_0
+fonttools=4.33.3=pypi_0
+ipykernel=6.9.1=py39hecd8cb5_0
+ipython=8.3.0=py39hecd8cb5_0
+jedi=0.18.1=py39hecd8cb5_1
+joblib=1.1.0=pypi_0
+jupyter_client=7.2.2=py39hecd8cb5_0
+jupyter_core=4.10.0=py39hecd8cb5_0
+kiwisolver=1.4.2=pypi_0
+libcxx=12.0.0=h2f01273_0
+libffi=3.3=hb1e8313_2
+libsodium=1.0.18=h1de35cc_0
+llvmlite=0.38.1=pypi_0
+matplotlib=3.5.2=pypi_0
+matplotlib-inline=0.1.2=pyhd3eb1b0_2
+ncurses=6.3=hca72f7f_2
+nest-asyncio=1.5.5=py39hecd8cb5_0
+numba=0.55.2=pypi_0
+numpy=1.21.6=pypi_0
+openssl=1.1.1o=hca72f7f_0
+packaging=21.3=pypi_0
+pandas=1.4.2=pypi_0
+parso=0.8.3=pyhd3eb1b0_0
+patsy=0.5.2=pypi_0
+pexpect=4.8.0=pyhd3eb1b0_3
+pickleshare=0.7.5=pyhd3eb1b0_1003
+pillow=9.1.1=pypi_0
+pip=21.2.4=py39hecd8cb5_0
+pmdarima=1.8.5=pypi_0
+prompt-toolkit=3.0.20=pyhd3eb1b0_0
+ptyprocess=0.7.0=pyhd3eb1b0_2
+pure_eval=0.2.2=pyhd3eb1b0_0
+pygments=2.11.2=pyhd3eb1b0_0
+pyparsing=3.0.9=pypi_0
+python=3.9.12=hdfd78df_1
+python-dateutil=2.8.2=pyhd3eb1b0_0
+pytz=2022.1=pypi_0
+pyzmq=22.3.0=py39he9d5cce_2
+readline=8.1.2=hca72f7f_1
+scikit-learn=1.1.1=pypi_0
+scipy=1.8.1=pypi_0
+setuptools=61.2.0=py39hecd8cb5_0
+six=1.16.0=pyhd3eb1b0_1
+sktime=0.11.4=pypi_0
+sqlite=3.38.3=h707629a_0
+stack_data=0.2.0=pyhd3eb1b0_0
+statsmodels=0.13.2=pypi_0
+threadpoolctl=3.1.0=pypi_0
+tk=8.6.12=h5d9f67b_0
+tornado=6.1=py39h9ed2024_0
+traitlets=5.1.1=pyhd3eb1b0_0
+tzdata=2022a=hda174b7_0
+urllib3=1.26.9=pypi_0
+wcwidth=0.2.5=pyhd3eb1b0_0
+wheel=0.37.1=pyhd3eb1b0_0
+wrapt=1.14.1=pypi_0
+xz=5.2.5=hca72f7f_1
+zeromq=4.3.4=h23ab428_0
+zlib=1.2.12=h4dc903c_2
