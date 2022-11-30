@@ -29,7 +29,7 @@
 - Implement different models for univariate and multivariate time series
 - Use different deep learning libraries such as TensorFlow, Keras, and PyTorch
 - Plot interactive time series visualizations using hvPlot
-- Explore state-space models and the unobserved components model (UCM)
+- Explore state-space models and the Unobserved Components Model (UCM)
 - Detect anomalies using statistical and machine learning methods
 - Forecast complex time series with multiple seasonal patterns
 
@@ -78,7 +78,7 @@ This book is for data analysts, business analysts, data scientists, data enginee
 
 7. Handling Missing Data
 
-   > Chapter 7, *Handling Missing Data*, explores different methods for identifying and handling missing data. You will learn different imputation and interpolation techniques. The chapter starts with simple statistical methods for univariate imputation and then explores various univariate interpolation algorithms to more advanced multivariate imputation.
+   > Chapter 7, *Handling Missing Data*, explores different methods for identifying and handling missing data. You will learn different **imputation** and **interpolation** techniques. The chapter starts with simple statistical methods for univariate imputation and then explores various univariate interpolation algorithms to more advanced multivariate imputation.
 
 8. Outlier Detection Using Statistical Methods
 
@@ -86,23 +86,23 @@ This book is for data analysts, business analysts, data scientists, data enginee
 
 9. Exploratory Data Analysis and Diagnosis
 
-   > Chapter 9, *Exploratory Data Analysis and Diagnosis*, dives into visualization techniques for effective Exploratory Data Analysis (EDA) with interactive visualizations. You will learn how to investigate and diagnose your time series data to test for specific assumptions such as stationarity and autocorrelation. Finally, the chapter covers practical recipes for transforming your time series data using a family of power transforms, decomposition, and differencing methods.
+   > Chapter 9, *Exploratory Data Analysis and Diagnosis*, dives into visualization techniques for effective Exploratory Data Analysis (EDA) with interactive visualizations. You will learn how to investigate and diagnose your time series data to test for specific assumptions such as **stationarity** and **autocorrelation**. Finally, the chapter covers practical recipes for transforming your time series data using a family of **power transforms**, **decomposition**, and **differencing** methods.
 
 10. Building Univariate Time Series Models Using Statistical Methods
 
-    > Chapter 10, *Building Univariate Time Series Models Using Statistical Methods*, kick offs the journey into modeling and forecasting time series. The chapter intuitively explains what autocorrelation function (ACF) and partial autocorrelation function (PACF) plots are and how they are used, and then moves in to training, diagnosing, and comparing different models, including exponential smoothing, autoregressive integrated moving average (ARIMA), and seasonal ARIMA (SARIMA). Additionally, this chapter introduces grid search and hyperparameter tuning.
+    > Chapter 10, *Building Univariate Time Series Models Using Statistical Methods*, kick offs the journey into modeling and forecasting time series. The chapter intuitively explains what **autocorrelation function** (ACF) and **partial autocorrelation function** (PACF) plots are and how they are used, and then moves in to training, diagnosing, and comparing different models, including exponential smoothing, autoregressive integrated moving average (**ARIMA**), and seasonal ARIMA (**SARIMA**). Additionally, this chapter introduces grid search and **hyperparameter tuning**.
 
 11. Additional Statistical Modeling Techniques for Time Series
 
-    > Chapter 11, *Additional Statistical Modeling Techniques for Time Series*, picks up from Chapter 10, *Building Univariate Time Series Models Using Statistical Methods*, diving into more advanced and practical models, such as vector autoregressive (VAR) for multivariate time series, generalized autoregressive conditional heteroskedasticity (GARCH) for forecasting volatility, and an introduction to the Prophet algorithm and library.
+    > Chapter 11, *Additional Statistical Modeling Techniques for Time Series*, picks up from Chapter 10, *Building Univariate Time Series Models Using Statistical Methods*, diving into more advanced and practical models, such as vector autoregressive (**VAR**) for multivariate time series, generalized autoregressive conditional heteroskedasticity (**GARCH**) for forecasting volatility, and explore the **Prophet** algorithm and library. You will also explore AutoArima and compare the results from the previous chapter.
 
 12. Forecasting Using Supervised Machine Learning
 
-    > Chapter 12, *Forecasting Using Supervised Machine Learning*, will take you from classical time series forecasting techniques to more advanced machine learning algorithms. The chapter shows how time series data can be transformed appropriately to be suitable for supervised machine learning. In addition, you will explore a variety of machine learning algorithms and implement multi-step forecasting, using both Scikit-Learn and Sktime.
+    > Chapter 12, *Forecasting Using Supervised Machine Learning*, will take you from classical time series forecasting techniques to more advanced machine learning algorithms. The chapter shows how time series data can be transformed appropriately to be suitable for supervised machine learning. In addition, you will explore a variety of machine learning algorithms and implement **multi-step** forecasting, using both **Scikit-Learn** and **Sktime**.
 
 13. Deep Learning for Time Series Forecasting
 
-    >  Chapter 13, *Deep Learning for Time Series Forecasting*, covers more advanced deeplearning architectures using TensorFlow/Keras and PyTorch. The chapter starts with a high-level API (Keras) and then dives into more complex implementations, using a lower-level API (PyTorch). 
+    >  Chapter 13, *Deep Learning for Time Series Forecasting*, covers more advanced deeplearning architectures using **TensorFlow**/Keras and PyTorch. The chapter starts with a high-level API (**Keras**) and then dives into more complex implementations, using a lower-level API (**PyTorch**). 
 
 14. Outlier Detection Using Unsupervised Machine Learning
 
@@ -110,7 +110,7 @@ This book is for data analysts, business analysts, data scientists, data enginee
 
 15. Advanced Techniques for Complex Time Series
 
-    > Chapter 15, *Advanced Techniques for Complex Time Series*, will introduce more complex time series data that contains multiple seasonal patterns. The chapter includes how such time series data can be decomposed and explores different modeling techniques, including state-space models.
+    > Chapter 15, *Advanced Techniques for Complex Time Series*, will introduce more complex time series data that contains multiple seasonal patterns. The chapter includes how such time series data can be decomposed and explores different modeling techniques, including state-space models (for example, Unobserved Components Model). You will compare the results using **Unobserved Components Mode**l (UCM), with **Prophet** and **NeuralProphet**. 
 
 
 
